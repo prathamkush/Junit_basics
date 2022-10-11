@@ -1,9 +1,13 @@
 import org.assertj.core.api.Fail;
 import org.example.Arrays.ArrayMethods;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+
+
 public class ArrayTesting {
+
 
     @Test
     public void findIndexTest(){

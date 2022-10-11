@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abb0c295-65b9-4b66-92f8-51e6c2e647a6" name="Changes" comment="basic assertions in Junit">
+    <list default="true" id="abb0c295-65b9-4b66-92f8-51e6c2e647a6" name="Changes" comment="Assert methods">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Screenshot (268).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestLifeCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Arrays/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Arrays/ArrayMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665464817344</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Assert methods">
+      <created>1665465499927</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665465499927</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,7 +105,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="basic assertions in Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic assertions in Junit" />
+    <MESSAGE value="Assert methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assert methods" />
   </component>
 </project>
