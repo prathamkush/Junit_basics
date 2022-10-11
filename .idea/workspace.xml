@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abb0c295-65b9-4b66-92f8-51e6c2e647a6" name="Changes" comment="Assert methods">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Screenshot (268).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestLifeCycle.java" afterDir="false" />
+    <list default="true" id="abb0c295-65b9-4b66-92f8-51e6c2e647a6" name="Changes" comment="Test Life cycle hooks annotations">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/Mock/StudentServiceMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/Mock/StudentServiceMockitoAnnotationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/studentTestings/GetScoresTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayTestings/ArrayTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayTestings/TestLifeCycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +56,41 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StudentServiceMockTest">
     <configuration name="ArrayTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit_basics" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArrayTesting" />
+      <option name="PACKAGE_NAME" value="arrayTestings" />
+      <option name="MAIN_CLASS_NAME" value="arrayTestings.ArrayTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetScoresTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="studentTestings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="studentTestings" />
+      <option name="MAIN_CLASS_NAME" value="studentTestings.GetScoresTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.Mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito.Mock" />
+      <option name="MAIN_CLASS_NAME" value="mockito.Mock.StudentServiceMockTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,6 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentServiceMockTest" />
+        <item itemvalue="JUnit.GetScoresTesting" />
         <item itemvalue="JUnit.ArrayTesting" />
       </list>
     </recent_temporary>
@@ -90,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665465499927</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test Life cycle hooks annotations">
+      <created>1665469845866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665469845866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +152,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="basic assertions in Junit" />
     <MESSAGE value="Assert methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assert methods" />
+    <MESSAGE value="Test Life cycle hooks annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Life cycle hooks annotations" />
   </component>
 </project>

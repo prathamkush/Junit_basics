@@ -1,3 +1,5 @@
+package arrayTestings;
+
 import org.assertj.core.api.Fail;
 import org.example.Arrays.ArrayMethods;
 import org.junit.jupiter.api.BeforeAll;
